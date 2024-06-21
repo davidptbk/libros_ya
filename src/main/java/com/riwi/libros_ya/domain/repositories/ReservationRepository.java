@@ -9,8 +9,6 @@ import com.riwi.libros_ya.domain.entities.ReservationEntity;
 
 @Repository
 public interface ReservationRepository extends JpaRepository<ReservationEntity, Long>{
-        Page<ReservationEntity> findByUser(Long id, PageRequest pagination);
 
-        Page<ReservationEntity> findByBook(Long id, PageRequest pagination);
 
 }

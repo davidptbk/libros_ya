@@ -3,12 +3,12 @@ package com.riwi.libros_ya.api.dto.response;
 import com.riwi.libros_ya.Util.enums.Rol;
 
 import lombok.AllArgsConstructor;
-import lombok.Builder;
 import lombok.Data;
 import lombok.NoArgsConstructor;
+import lombok.experimental.SuperBuilder;
 
 @Data
-@Builder
+@SuperBuilder
 @AllArgsConstructor
 @NoArgsConstructor
 public class UserResp {

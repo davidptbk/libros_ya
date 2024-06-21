@@ -9,5 +9,4 @@ import com.riwi.libros_ya.domain.entities.LoanEntity;
 
 @Repository
 public interface LoanRepository extends JpaRepository<LoanEntity, Long> {
-    Page<LoanEntity> finByUserEntity(Long id, PageRequest pagination);
 }
